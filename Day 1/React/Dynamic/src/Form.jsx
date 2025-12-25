@@ -24,7 +24,7 @@ export default function Form() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h2>Dynamic Survey Form</h2>
+      <h2>Survey Form</h2>
 
       {questions.map((q, index) => (
         <div key={q.id} style={{ marginBottom: 10 }}>
@@ -48,7 +48,7 @@ export default function Form() {
         </div>
       ))}
 
-      <button onClick={addQuestion}> Add Question</button>
+      <button onClick={addQuestion}>Add Question</button>
 
       <hr />
 
