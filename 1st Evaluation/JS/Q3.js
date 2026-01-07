@@ -26,7 +26,8 @@ function transformStudents(students) {
         score: student.score,
         grade: grade,
       };
-    });
+    })
+    .sort((a, b) => b.score - a.score);
 
   return res;
 }
