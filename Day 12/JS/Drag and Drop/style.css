@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 400px;
+}
+
+li {
+  padding: 12px;
+  margin-bottom: 6px;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  cursor: grab;
+}
+
+li.dragging {
+  opacity: 0.5;
+}
+
+.drop-zone {
+  height: 10px;
+}
+
+.drop-zone.active {
+  background: #4caf50;
+}
