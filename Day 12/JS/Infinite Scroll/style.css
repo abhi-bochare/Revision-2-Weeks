@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.item {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+#loader {
+  text-align: center;
+  padding: 15px;
+  display: none;
+  font-weight: bold;
+}
+#end {
+  text-align: center;
+  padding: 15px;
+  color: gray;
+}
